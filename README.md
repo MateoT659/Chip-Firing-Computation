@@ -1,1 +1,6 @@
-# Chip-Firing_Computation
+# Chip-Firing
+
+This sage code simulates a mathematical game called chip firing, and aided us in our work at the [Texas State REU](https://www.math.txst.edu/research-conferences/summerreu.html)! Lots of documentation is directly in the code, and our paper is in the works: it'll be linked here once it's published. Here's a short explanation on chip firing:
+
+Chip firing is a game played on graphs where 'chips' are placed on each vertex and distributed across the graph through 'firings'. This game simulates the transfer of resources between parties and has applications in many fields like biology, physics, and even business communications. When inspected closely, complex patterns emerge from this simple game. In our project, we study chip firing on signed graphs - that is, graphs with positively or negatively signed edges. In a signed graph, a negative edge represents an adversarial relationship between vertices, which creates a new layer of complexity on top the original game. In our project, we explore chip firing games on different classes of sign graphs. We also explore the concept of vertex switching, which is an operation on signed graphs that can transform one into another without affecting the structure of the chip firing game. 
+
